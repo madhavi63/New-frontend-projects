@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Student Form</title>
+</head>
+<body>
+ <form>
+ <center><h1>Student Details Form</h1></center>
+<Label>Name : </Label>
+<input type="text" placeholder="Enter Your Name"/>
+<br/></br>
+<Label> Date of Birth :</Label>
+<input type="date"/>
+<br/><br/>
+<label> Age :</label>
+<input type="number" placeholder="Enter your Age"/>
+<br/><br/>
+<label> College Name:</label>
+<input type="text" placeholder="Enter your College Name"/>
+<br/><br/>
+<label>Mobile No :</label> 
+<input type="number" placeholder="Enter phone number"/>
+<br/><br/>
+<fieldset style="width:20%">
+    <legend>Gender</legend>
+    <input type="radio" name="gender"id="male" value ="male"/>
+    <label>Male</label><br/>
+    <input type="radio" name="gender"id="female" value ="female"/>
+    <label>Female</label>
+</fieldset>
+<br/><br/>
+<fieldset style="width :40%">
+<legend>Skills</legend>
+<input type="checkbox" name="Skills"id="html" value ="html"/>
+    <label>html</label></br>
+    <input type="checkbox" name="Skills"id="female" value ="css"/>
+    <label>css</label></br>
+    <input type="checkbox" name="Skills"id="javascript" value ="javascript"/>
+    <label>javascript</label><br/><br/>
+</fieldset>
+<br/>
+<!--Drop down-->
+<label for="role">select role :</label>
+<select id="role" name="role" required>
+<option value="student">student</option>
+<option value="employee">employee</option>
+</select>
+<br/><br/>
+<!-- resume upload-->
+ <label> Resume :</label>
+ <input type="file"id="resume"name="resume"
+ accept=".pdf,.doc,.docx"required/>
+ <br/><br/>
+ <!-- Email -->
+ <label for="email">Email:</label>
+ <input type="email" id="email" name="email" required />
+ <br/><br/>
+ <!-- Password -->
+ <label for="password">Password:</label>
+ <inputtype="password"id="password"name="password" required/>
+ <br/><br/>
+ <!-- Note -->
+ <label for="note">Note:</label><br/>
+ <textarea id="note" name="note" rows="4" cols="50"></textarea>
+ <br/><br/>
+ <!-- Submit Button -->
+ <input type="submit" value="Submit" />
+</form>
+ </body>
+</html>
