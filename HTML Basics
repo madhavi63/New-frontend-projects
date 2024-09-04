@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website</title>
+</head>
+<body>
+   <div class="container">
+    <h1>Heading</h1>
+    <h2>Heading</h2>
+    <h3>Heading</h3>
+    <h4>Heading</h4>
+    <h5>Heading</h5>
+    <h6>Heading</h6>
+    <p>This is para</p>
+    <button>Click Me</button>
+    <br/>
+    <img src="./codegnanLogo.jpg" alt="codegnan Logo"/>
+    <a href="https://codegnan.com">codegnan</a>
+    <hr/>
+    <div>Division: Div is a Block level element,adding new line and 100% width</div>
+    <span>span: span is a inline element,content background space only</span>
+    <br/><br/>
+    <heading>Header Semantic Elements</heading>
+    <section>Body Semantic Elements</section>
+    <footer>Fotter Semantic Elements</footer>
+   </div>
+</body>
+</html>
